@@ -1,0 +1,107 @@
+
+
+.home-main {
+    padding: 25px 35px 0;
+}
+
+.home-main .home-header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-header h2 {
+    font-size: 27px;
+}
+
+.home-tit__icon i{
+    margin-left: 15px;
+}
+
+.friend-link {
+    background-color: rgb(240, 240, 251);
+    margin:20px 0px 10px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.main-box {
+    padding:0 40px
+}
+
+.myinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+
+.myinfo .myinfo-card {
+    display: flex;
+    align-items: center;
+}
+
+
+.myinfo .myinfo-img {
+    width: 50px;
+    height: 50px;  
+    margin-right: 10px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    
+}
+
+.friend-list {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+}
+
+.friend-list small {
+    font-size: 14px;
+}
+
+.friend-list i {
+    float: right;
+    font-size: 14px;
+}
+
+.friend-card {
+    margin: 15px 0 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.friend-card .card-flex {
+    display: flex;
+    align-items: center;
+}
+
+.friend-card .friend-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: springgreen;
+    
+}
+
+
+
+
+
+
+
+.bottom-nav {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    /* box-sizing: border-box; */
+    width: 100%;
+    padding: 25px 0;
+    background-color: #eee;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

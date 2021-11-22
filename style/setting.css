@@ -1,0 +1,52 @@
+.set-main {
+    padding: 25px 35px 0;
+}
+
+.set-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.set-header p {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.kakao-set i,
+.my-set i {
+    margin-right: 10px;
+    padding-left: 20px;
+}
+.my-set{
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.kakao-set div {
+    padding-bottom: 40px;
+    font-size: 25px;
+}
+
+.kakao-set div small,
+.my-set div small {
+    float: right;
+    opacity: 0.5;
+}
+
+
+.my-set div{
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+
+/* 
+.detail {
+    position: relative;
+}
+.detail p::after {
+    content: "Lateset Version";
+    position: absolute;
+
+} */

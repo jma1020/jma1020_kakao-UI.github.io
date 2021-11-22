@@ -1,0 +1,88 @@
+.find-friend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.next {
+    display: block;
+}
+
+.find-friend i {
+    
+}
+/* 여기 마진다른 텍스트 정렬어찌하지 */
+
+.recom-friend {
+    margin-top: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px 0;
+}
+
+.recom-nothing {
+    padding: 90px 0;
+    text-align: center;
+}
+
+
+.open-chat {
+    margin-top: 15px;
+    position: relative;
+}
+
+.open-chat__sub {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.open-chat__list {
+    padding-top: 15px;
+}
+
+.open-chat__list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.open-chat__list .list-txt strong {
+    font-size: 20px;
+}
+
+.open-chat__list .list-txt p {
+    margin: 4px 0;
+    opacity: 0.5;
+}
+
+.open-chat__list .list-txt span {
+    color: hotpink;
+    font-weight: bold;
+}
+
+
+.open-chat__list .list-img {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    border-radius: 10px;
+    position: relative;
+}
+
+.open-chat__list .list-img span::after {
+    content: "♥ 326";
+    display: inline-block;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+
+}
+
